@@ -1,0 +1,12 @@
+ion-menu {
+    --width: 200px;  // Adjusts the width of the side menu
+  
+    ion-content {
+      ion-list {
+        ion-item {
+          --color: var(--ion-color-primary);  // Sets the text color for the menu items
+        }
+      }
+    }
+  }
+  

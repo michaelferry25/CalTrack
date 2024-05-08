@@ -1,0 +1,44 @@
+<ion-header>
+  <ion-toolbar>
+    <!--Logo and title-->
+    <ion-buttons slot="start">
+      <!--logo-->
+      <ion-img src="assets/CalTrackLogoFinal.png" style="height: 60px; width: auto;"></ion-img>
+    </ion-buttons>
+    <!--Title-->
+    <ion-title style="padding-left: 10px;" style="padding-right: 10px;">
+      CalCount
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="ion-padding">
+  <!--Layout for main content of the page, I added emojis to make it seem more user friendly in the text-->
+  <ion-grid>
+    <ion-row>
+      <!--html for Log Meal button -->
+      <ion-col size="6">
+        <ion-card routerLink="/log-meal">
+          <ion-card-header>
+            <ion-card-title>Log Meal</ion-card-title>
+          </ion-card-header>
+          <ion-card-content>
+            Keep track of your daily food intake. Tap here to log your meals✅
+          </ion-card-content>
+        </ion-card>
+      </ion-col>
+      <!--Html for for Daily Intake button -->
+      <ion-col size="6">
+        <ion-card routerLink="/daily-intake">
+          <ion-card-header>
+            <ion-card-title>Daily Intake</ion-card-title>
+          </ion-card-header>
+          <ion-card-content>
+            View your daily caloric intake and manage your diet goals and plans. Tap here to see your stats👏.
+          </ion-card-content>
+        </ion-card>
+      </ion-col>
+    </ion-row>
+    
+  </ion-grid>
+</ion-content>

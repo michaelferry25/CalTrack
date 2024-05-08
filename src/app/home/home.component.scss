@@ -1,0 +1,32 @@
+ion-toolbar {
+   
+    --background: var(--ion-color-primary);  //makes sure that the bar at the top has the primary color
+    ion-title {
+      text-align: center;  //makes sure the title is centered at the top
+    }
+    ion-buttons {
+      align-items: center;  //centres the logo vertically
+      ion-img {
+        max-height: 40px;  //max height for the image so its whithin size
+        margin-right: 5px;  //adds space between the logo and the title
+      }
+    }
+  }
+
+  //sets requirements fot the title
+  ion-title {
+    font-family: "Bebas Neue", sans-serif; //sets the font from import
+    font-size: 3rem; //size for font
+    text-align: center; //centres the font
+    width: 100%;
+    --padding-start: 0;
+    --padding-end: 0;
+  }
+
+//sets the requirement for the button/card to enlarge
+  ion-card {
+    &:hover {
+      transform: scale(1.05);  //Makes the button pop when hovered over by the mouse to give a textured feel
+    }
+  }
+  

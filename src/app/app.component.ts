@@ -1,22 +1,18 @@
 import { Component } from '@angular/core';
-import { SplashScreen } from '@capacitor/splash-screen'
+
 @Component({
   selector: 'app-root',
   templateUrl: 'app.component.html',
-  styleUrls: ['app.component.scss']
+  styleUrls: ['app.component.scss'],
 })
 export class AppComponent {
-  constructor() {
-    this.initializeApp();
-  }
+  public appPages = [
+    { title: 'Home', url: '/home', icon: 'home' },
+    { title: 'Log Meal', url: '/log-meal', icon: 'restaurant' },
+    { title: 'Daily Intake', url: '/daily-intake', icon: 'bar-chart' }
+  ];
 
-  initializeApp() {
-    /* To make sure we provide the fastest app loading experience
-       for our users, hide the splash screen automatically
-       when the app is ready to be used:
+  public labels = ['Family', 'Friends', 'Notes', 'Work', 'Travel', 'Reminders'];
 
-        https://capacitor.ionicframework.com/docs/apis/splash-screen#hiding-the-splash-screen
-    */
-    SplashScreen.hide();
-  }
+  constructor() {}
 }
