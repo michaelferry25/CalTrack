@@ -39,3 +39,4 @@ After the user navigates to Tab 2 (Photos), they can tap/click on the camera but
 My Mobile Application Development Repository for Final Project
 >>>>>>> c423d64c5fe1549b1b5a1641ab873a626c638a1d
 "# MobileAppDevProject" 
+"# MobileAppDevProject" 
